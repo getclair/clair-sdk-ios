@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Clair",
-            url: "https://github.com/getclair/clair-sdk-ios/releases/download/v0.0.12/Clair.xcframework.zip",
-            checksum: "2a182736ab6744b6f4c7a8aecc7654d7b34e56b9b7785ec17fbdcfd177ba651f"
+            url: "https://github.com/getclair/clair-sdk-ios/releases/download/v0.0.13/Clair.xcframework.zip",
+            checksum: "b4422ce06c13213c333ad522e33d891e09be77c995f584f4141632bb8d574573"
         ),
     ]
 )
