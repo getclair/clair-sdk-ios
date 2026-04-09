@@ -1,18 +1,17 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
-    name: "Clair",
+    name: "ClairQuickbooksKit",
     platforms: [.iOS(.v16)],
     products: [
-        .library(name: "Clair", targets: ["Clair"]),
+        .library(name: "ClairQuickbooksKit", targets: ["ClairQuickbooksKit"]),
     ],
     targets: [
         .binaryTarget(
-            name: "Clair",
-            // IMPORTANT: Update the version number in SDK-Version header
-            url: "https://github.com/getclair/clair-sdk-ios/releases/download/v0.0.26/Clair.xcframework.zip",
-            checksum: "2e3578533e3b3b8e5544fd30341deec864506e8cd7cba631b1b755de08f3c0d3"
+            name: "ClairQuickbooksKit",
+            url: "https://github.com/getclair/clair-sdk-ios/releases/download/0.0.27/ClairQuickbooksKit.xcframework.zip",
+            checksum: "9720493209b7df6b6616393886e40b89551d395dfeaabe470e0a592b4d0029e2"
         ),
     ]
 )
